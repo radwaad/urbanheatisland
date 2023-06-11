@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: rtl;
+
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px  50px;
+}
+
+.logo {
+    text-decoration: none;
+    color:#161616e7	 ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navegation a{
+    color:#161616e7 ;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding-left: 30px;
+
+}
+.navegation a:hover{
+    color: #2a17bbf7;
+}
+section{
+    padding: 50px  100px;
+
+}
+
+section.main{
+padding: 200px  430px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(image/071def82c4f673889a9d4b3f4ac35e53.jpg)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align:center
+    
+}
+
+.main h2{
+    color:#000000f7 ;
+    font-weight: 600;
+    background-color: hsla(0, 0%, 94%, 0.207);
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    background-color: hsla(0, 0%, 94%, 0.207);
+    font-size: 2.3em;
+    font-weight: 600;
+    text-align: center;
+    
+
+}
+
+.main h3{
+    color:#201313f7 ;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: hsla(0, 0%, 94%, 0.505);
+
+}
+
+.main-btn{
+    color: #ffffff;
+    background-color:hsla(229, 30%, 18%, 0.882) ;
+    background-size: 50px 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1em .8em ;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #080808f7;
+    transform: scale(1.1);
+
+}
+
+.التعريف{
+    background-color: #64636334
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(64, 63, 63);
+    background-color: #f0f0f0;
+    background-size: 10px;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.المحتوي{
+    
+   color: #0f0e13f7;
+    font-weight: 600;
+    direction: rtl;
+    font-size: 1.5em
+}
+
+.السبب{
+    color: #ae1919;
+    background-color: #fc07441b;
+    font-size: 1.3em;
+    font-weight: 700;
+
+}
+
+.الحل{
+    color: #0f3e20;    
+    background-color: #52ad692b;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.img{
+    padding: 20px  5px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.المشروع{
+    background-color: #64636334;
+}
+
+.project-card{
+    background-color: #f0f0f0;
+    border: 1px solid #060606 ; 
+    min-height: 14em;
+    width: 15em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease ;
+
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-card:hover  .project-image{
+    opacity: 0.7;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-image img{
+    display: flex;
+    width:100%
+
+}
+
+.project-category{
+   font-size: 0.8em; 
+   color: #000;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #ae1919;
+
+    
+}
+
+.more-details:hover{
+    color: #5b1111;
+}
+
+.btn{
+    color: #070707;
+    background-color: #f0f0f0;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 20px ;
+    transition: 0.7s ease;
+    font-weight: 1000;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: #45464696;
+    
+
+}
+
+.footer{
+    background-color: #f0f0f0;
+    color: #0b0505;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+
+}
+.uni.footer{
+    font-weight: 600;
+}
+.member.footer{
+    font-weight: 600;
+}
+
+@media  (max-width : 1023px) {
+
+    header{
+        padding:5px  10px;
+        
+    }
+ 
+    .logo{
+        font-size: 0.5em;
+
+    }
+
+    .navegation a{
+        padding-left:10px;
+        font-size: 0.7em;
+
+    }
+    .main{
+        font-size: 0.7em;
+
+    }
+   
+    section.main{
+        padding: 5px  10px;
+        }
+    
+    .المحتوي{
+        font-size: 1em;
+    }
+        
+    .title{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .السبب{
+        font-size: 1em;
+    
+    }
+
+    .الحل{
+        font-size: 1em;
+    }
+
+
+    section{
+        padding: 5px  10px;
+    }
+
+    .main-contant h2{
+        font-size: 1em;
+    }
+    .main-contant h3{
+        font-size: 1.6em;
+    }
+    .contant{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+       
+    }
+
+    .btn{
+        font-size: .4em;
+        padding: 4px 7px;
+    }
+    
+   .footer{
+    padding: .9em;
+    font-size: xx-small;
+   }
+
+
+}
